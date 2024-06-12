@@ -1,0 +1,1 @@
+This page is for a small dance studio. It is a one page website with registration form and basi information about the dane studio and classes students can take. It was created using HTML, CSS, and Javascript.
