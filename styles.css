@@ -91,9 +91,10 @@ button:hover {
   background: #555;
 }
 
-.error p {
+.error-message {
   display: none;
 }
+
 #errorDisplay {
   color: red;
   margin-top: 10px;
