@@ -22,36 +22,50 @@
     </div>
 
     <div id="app"></div>
-
+    <h2>Please Register Here</h2>
     <form id="formregistration" action="result.html" method="GET">
       <div class="input-group">
         <label for="firstname">First Name</label>
-        <input type="text" id="firstname" placeholder="First Name" />
-        <p>Error Message</p>
+        <input
+          type="text"
+          id="firstname"
+          maxlength="20"
+          minlength="5"
+          required
+          placeholder="First Name"
+        />
+        <p class="error-message">Error Message</p>
       </div>
 
       <div class="input-group">
         <label for="lastname">Last Name</label>
-        <input type="text" id="lastname" placeholder="Last Name" />
-        <p>Error Message</p>
+        <input
+          type="text"
+          id="lastname"
+          maxlength="20"
+          minlength="5"
+          required
+          placeholder="Last Name"
+        />
+        <p class="error-message">Error Message</p>
       </div>
 
       <div class="input-group">
         <label for="email">Email</label>
         <input type="email" id="email" placeholder="Email Address" />
-        <p>Error Message</p>
+        <p class="error-message">Error Message</p>
       </div>
 
       <div class="input-group">
         <label for="phonenumber">Phone Number</label>
         <input type="tel" id="phonenumber" placeholder="Phone Number" />
-        <p>Error Message</p>
+        <p class="error-message">Error Message</p>
       </div>
 
       <div class="input-group">
         <label for="password">Password</label>
         <input type="password" id="password" placeholder="Password" />
-        <p>Error Message</p>
+        <p class="error-message">Error Message</p>
       </div>
 
       <div class="input-group">
@@ -61,7 +75,7 @@
           id="confirmpassword"
           placeholder="Confirm Password"
         />
-        <p>Error Message</p>
+        <p class="error-message">Error Message</p>
       </div>
 
       <div class="input-group">
@@ -72,7 +86,7 @@
           <option value="Ballet Dance at 10am">Ballet Dance at 10am</option>
           <option value="HipHop Dance at 11am">HipHop Dance at 11am</option>
         </select>
-        <p>Error Message</p>
+        <p class="error-message">Error Message hidden</p>
       </div>
 
       <button type="submit">Sign Up</button>

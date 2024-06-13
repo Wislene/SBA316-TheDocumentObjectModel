@@ -1,20 +1,16 @@
 window.onload = function () {
-  // Display an alert with the user's browser name and version
-  // alert(`You are using ${navigator.appName} version ${navigator.appVersion}`);
+  alert(`You are using ${navigator.appName} version ${navigator.appVersion}`);
 
-  // // Log the user's screen dimensions to the console
-  // console.log(`Your screen dimensions are ${screen.width}x${screen.height}`);
-
+  console.log(`Your screen dimensions are ${screen.width}x${screen.height}`);
   const app = document.getElementById("app");
   const navbar = document.getElementById("navbar-id");
 
-  // Create a parent container
   let container = document.createElement("div");
   container.id = "container";
 
   // Title
   let title = document.createElement("h1");
-  title.textContent = "Welcome to Freedom Dance Studio";
+  title.textContent = "Welcome to Freedom Dance Studio's Grand Opening";
   title.classList.add("title");
   title.style.textAlign = "center";
   title.style.backgroundColor = "blue";
@@ -23,7 +19,7 @@ window.onload = function () {
 
   // Welcome message
   let welcome = document.createElement("p");
-  welcome.textContent = `In the ancient times, dancers moved to the rhythm of nature. The Freedom Dance Studio was founded to keep these traditions alive.
+  welcome.textContent = `We are giving away first three classes for FREE! Register and fill out the registration form so you can receive your free classes.  In the ancient times, dancers moved to the rhythm of nature. The Freedom Dance Studio was founded to keep these traditions alive.
   Modern dance now incorporates these ancient movements. Each dance class here begins with a story of the dance's origin.`;
   welcome.classList.add("welcome");
 
